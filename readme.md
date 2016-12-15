@@ -1,8 +1,10 @@
 # BatteryBar
 
-This is a dumb, dumb, dumb dead simple battery remaining menu bar app for macOS 10.12.2.
+This is a dumb, dumb, dumb dead simple battery remaining menu bar app for macOS.
 
 ![screenshot](./screenshot.png)
+
+If you didn't know, Apple has [removed the time remaining indicator](http://www.macrumors.com/2016/12/13/macos-sierra-10-12-2-battery-life-indicator/) from macOS Sierra 10.12.2.
 
 # Build
 
