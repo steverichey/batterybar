@@ -6,5 +6,5 @@ This is a dumb, dumb, dumb dead simple battery remaining menu bar app for macOS 
 
 # License
 
-:shrug-emoji:
+&copy; 2016 [Steve Richey](https://github.com/steverichey). Shared under an [MIT license](https://en.wikipedia.org/wiki/MIT_License). See [license.md](./license.md) for details.
 
