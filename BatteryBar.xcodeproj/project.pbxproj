@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D797142B1E03869300C8DD76 /* CommandResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797142A1E03869300C8DD76 /* CommandResult.swift */; };
+		D797142D1E03872600C8DD76 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797142C1E03872600C8DD76 /* String+Extensions.swift */; };
+		D797142F1E038EFC00C8DD76 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797142E1E038EFC00C8DD76 /* Array+Extensions.swift */; };
 		D7B2BACB1E0224C000601875 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B2BACA1E0224C000601875 /* AppDelegate.swift */; };
 		D7B2BACD1E0224C000601875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B2BACC1E0224C000601875 /* Assets.xcassets */; };
 		D7B2BAD01E0224C000601875 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B2BACE1E0224C000601875 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D797142A1E03869300C8DD76 /* CommandResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandResult.swift; sourceTree = "<group>"; };
+		D797142C1E03872600C8DD76 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D797142E1E038EFC00C8DD76 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		D7B2BAC71E0224C000601875 /* BatteryBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B2BACA1E0224C000601875 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7B2BACC1E0224C000601875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				D7B2BACA1E0224C000601875 /* AppDelegate.swift */,
+				D797142A1E03869300C8DD76 /* CommandResult.swift */,
+				D797142C1E03872600C8DD76 /* String+Extensions.swift */,
+				D797142E1E038EFC00C8DD76 /* Array+Extensions.swift */,
 				D7B2BACC1E0224C000601875 /* Assets.xcassets */,
 				D7B2BACE1E0224C000601875 /* MainMenu.xib */,
 				D7B2BAD11E0224C000601875 /* Info.plist */,
@@ -85,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = adlaos;
 				TargetAttributes = {
 					D7B2BAC61E0224C000601875 = {
@@ -129,7 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D797142B1E03869300C8DD76 /* CommandResult.swift in Sources */,
+				D797142D1E03872600C8DD76 /* String+Extensions.swift in Sources */,
 				D7B2BACB1E0224C000601875 /* AppDelegate.swift in Sources */,
+				D797142F1E038EFC00C8DD76 /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +177,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -214,6 +227,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -282,6 +296,7 @@
 				D7B2BAD61E0224C000601875 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

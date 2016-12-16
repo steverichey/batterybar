@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -14,8 +14,8 @@
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BatteryBar" customModuleProvider="target">
             <connections>
-                <outlet property="itemItem" destination="4zD-LZ-X74" id="nZe-7c-nI4"/>
                 <outlet property="statusMenu" destination="3yc-w6-zPn" id="hLX-s8-DNW"/>
+                <outlet property="timeRemainingItem" destination="4zD-LZ-X74" id="zPm-oO-kVb"/>
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
@@ -23,6 +23,18 @@
             <items>
                 <menuItem title="Item" enabled="NO" id="4zD-LZ-X74">
                     <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Show Time in Menu Bar" id="KLj-lo-PWj">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onShowTimeInMenuBarSelected:" target="Voe-Tx-rLC" id="oT9-b0-jxL"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Quit" id="Rtx-Y2-ZB1">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="onQuitSelected:" target="Voe-Tx-rLC" id="dY4-f7-aYY"/>
+                    </connections>
                 </menuItem>
             </items>
         </menu>
