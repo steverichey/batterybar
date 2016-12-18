@@ -9,7 +9,7 @@ If you didn't know, Apple has [removed the time remaining indicator](http://www.
 
 # Build
 
-Open the `.xcodeproj` file with Xcode and press play. You're done? Right now it only actually grabs the time remaining once but this is just a proof of concept because removing time remaining is dumb. It would be pretty easy to grab the time every few seconds or whatever so if you want me to do that open an issue or something.
+Open the `.xcodeproj` file with Xcode and press play. You're done? Or you can just snag a build from the [releases](https://github.com/steverichey/batterybar/releases) tab.
 
 # License
 
